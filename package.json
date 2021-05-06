@@ -1,0 +1,7 @@
+{
+  "name": "com.exceptionsoftware.exvariables",
+  "displayName": "Ex Variables",
+  "version": "1.0.0",
+  "description": "Variable system",
+  "type": "library"
+}

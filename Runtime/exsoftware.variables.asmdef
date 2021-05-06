@@ -1,0 +1,16 @@
+{
+    "name": "exsoftware.variables",
+    "rootNamespace": "ExceptionSoftware.Variables",
+    "references": [
+        "GUID:e98f51a5f9e9ac748931c6408eeea8f6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
