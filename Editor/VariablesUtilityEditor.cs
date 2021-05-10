@@ -11,7 +11,7 @@ namespace ExceptionSoftware.Variables
 
         public const string VARIABLES_PATH = ExConstants.GAME_PATH + "Variables/";
         public const string VARIABLES_PATH_RESOURCES = VARIABLES_PATH + "Resources/";
-        public const string VARIABLES_MENU_ITEM = "Game/Variables/";
+        public const string VARIABLES_MENU_ITEM = "Tools/Variables/";
 
         public const string VARIABLES_SETTINGS_FILENAME = "ExVariablesSettings";
 
@@ -41,7 +41,7 @@ namespace ExceptionSoftware.Variables
             return _settings;
         }
 
-        [MenuItem(VARIABLES_MENU_ITEM + "Select Asset")]
+        [MenuItem(VARIABLES_MENU_ITEM + "Select Asset", priority = 3000)]
         static void SelectAsset()
         {
             LoadOrCreate();

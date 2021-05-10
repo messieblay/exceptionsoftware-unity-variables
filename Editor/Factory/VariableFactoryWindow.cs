@@ -6,7 +6,7 @@ namespace ExceptionSoftware.Variables
 {
     public class VariableFactoryWindow : ExWindow<VariableFactoryWindow>
     {
-        [MenuItem(VariablesUtilityEditor.VARIABLES_MENU_ITEM + "Factory", false, 1012)]
+        [MenuItem(VariablesUtilityEditor.VARIABLES_MENU_ITEM + "Factory", false, 3000)]
         static void OpenWindow()
         {
             VariableFactoryWindow w = VariableFactoryWindow.GetWindow<VariableFactoryWindow>();
