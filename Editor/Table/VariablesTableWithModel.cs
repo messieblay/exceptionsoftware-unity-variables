@@ -9,15 +9,15 @@ using UnityEngine;
 namespace ExceptionSoftware.Variables
 {
 
-    public class TreeViewItem<T> : TreeViewItem where T : VariablesElement
-    {
-        public T data { get; set; }
+    //public class VariablesTreeViewItem<T> : TreeViewItem where T : VariablesElement
+    //{
+    //    public T data { get; set; }
 
-        public TreeViewItem(int id, int depth, string displayName, T data) : base(id, depth, displayName)
-        {
-            this.data = data;
-        }
-    }
+    //    public VariablesTreeViewItem(int id, int depth, string displayName, T data) : base(id, depth, displayName)
+    //    {
+    //        this.data = data;
+    //    }
+    //}
 
     public class VariablesTableWithModel<T> : TreeView where T : VariablesElement
     {
