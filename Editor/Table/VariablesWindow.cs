@@ -53,7 +53,7 @@ namespace ExceptionSoftware.Variables
             {
                 _resized = false;
                 Rect rpos = base.position.CopyToZero();
-                _rectLayout = rpos.SplitSuperFixedFlexible(true, 20, 21, -1);
+                _rectLayout = rpos.Split(SplitMode.Vertical, 20, 21, -1);
                 //Rect r;
                 Vector2 center;
                 for (int x = 1; x < _rectLayout.Length; x++)

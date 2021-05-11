@@ -26,8 +26,8 @@ namespace ExceptionSoftware.Variables
 
         protected override void DoLayout()
         {
-            Rect[] lv = base.position.CopyToZero().SplitSuperFixedFlexible(true, 20, 60, -1);
-            Rect[] lh = lv[2].SplitSuperFixedFlexible(false, .5f, -1);
+            Rect[] lv = base.position.CopyToZero().Split(SplitMode.Vertical, 20, 60, -1);
+            Rect[] lh = lv[2].Split(SplitMode.Horizontal, .5f, -1);
 
             _rtoolbar = lv[0];
             _rhelp = lv[1];
