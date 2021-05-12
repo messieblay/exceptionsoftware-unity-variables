@@ -3,5 +3,13 @@
   "displayName": "Ex Variables",
   "version": "1.0.0",
   "description": "Variable system",
-  "type": "library"
+  "dependencies": {
+    "com.exceptionsoftware.exlibs": "1.0.0"
+  },
+  "author": {
+    "name": "Exception Software",
+    "email": "marcoblay@gmail.com",
+    "url": "https://github.com/messieblay/exceptionsoftware-unity-variables"
+  },
+  "hideInEditor": false
 }
