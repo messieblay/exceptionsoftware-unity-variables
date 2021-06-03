@@ -8,7 +8,7 @@ namespace ExceptionSoftware.Variables
     {
 
 
-        [MenuItem("Tools/Variables/Manager", priority = 3000)]
+        [MenuItem("Tools/Variables/Manager", priority = ExConstants.MENU_ITEM_PRIORITY)]
         public static VariablesWindow GetWindow()
         {
             var window = EditorWindow.GetWindow<VariablesWindow>();
