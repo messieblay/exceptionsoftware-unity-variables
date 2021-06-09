@@ -9,7 +9,7 @@ namespace ExceptionSoftware.Variables
         static VariablesSettingsAsset _settings = null;
         public static VariablesSettingsAsset Settings => LoadOrCreate();
 
-        public const string VARIABLES_PATH = ExConstants.GAME_PATH + "Variables/";
+        public const string VARIABLES_PATH = ExConstants.SETTINGS_PATH + "Variables/";
         public const string VARIABLES_PATH_RESOURCES = VARIABLES_PATH + "Resources/";
         public const string VARIABLES_MENU_ITEM = "Tools/Variables/";
 
