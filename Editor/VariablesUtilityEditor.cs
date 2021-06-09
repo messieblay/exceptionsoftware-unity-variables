@@ -41,7 +41,7 @@ namespace ExceptionSoftware.Variables
             return _settings;
         }
 
-        [MenuItem(VARIABLES_MENU_ITEM + "Select Asset", priority = ExConstants.MENU_ITEM_PRIORITY)]
+        [MenuItem(VARIABLES_MENU_ITEM + "Settings", priority = ExConstants.MENU_ITEM_PRIORITY)]
         static void SelectAsset()
         {
             LoadOrCreate();
