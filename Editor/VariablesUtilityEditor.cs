@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 namespace ExceptionSoftware.Variables
@@ -28,6 +29,11 @@ namespace ExceptionSoftware.Variables
             if (_settings == null)
             {
                 _settings = ExAssets.FindAssetsByType<VariablesSettingsAsset>().First();
+            }
+
+            if (_settings == null)
+            {
+                _settings = Resources.FindObjectsOfTypeAll<VariablesSettingsAsset>().FirstOrDefault();
             }
 
             if (_settings == null)
