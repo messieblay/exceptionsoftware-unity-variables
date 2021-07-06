@@ -38,11 +38,13 @@ namespace ExceptionSoftware.Variables
 
             if (_settings == null)
             {
-                _settings = ExAssets.CreateAsset<VariablesSettingsAsset>(VARIABLES_PATH_RESOURCES, VARIABLES_SETTINGS_FILENAME);
+                _settings = ExAssets.CreateAsset<VariablesSettingsAsset>(VARIABLES_PATH_RESOURCES, VARIABLES_SETTINGS_FILENAME, true, true);
             }
 
-            _settings.variables = ExAssets.FindAssetsByType<Variable>();
-
+            if (_settings)
+            {
+                _settings.variables = ExAssets.FindAssetsByType<Variable>();
+            }
 
             return _settings;
         }
