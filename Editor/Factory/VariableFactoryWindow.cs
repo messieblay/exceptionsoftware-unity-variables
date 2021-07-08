@@ -71,8 +71,8 @@ namespace ExceptionSoftware.Variables
             GUILayout.EndArea();
         }
 
-        string _textLeft;
-        string _textRight;
+        string _textLeft = string.Empty;
+        string _textRight = string.Empty;
         void DoHelp(Rect rect)
         {
             GUILayout.BeginArea(rect);
