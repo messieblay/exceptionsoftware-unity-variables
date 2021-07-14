@@ -4,7 +4,7 @@ using UnityEngine;
 namespace ExceptionSoftware.Variables
 {
     [System.Serializable]
-    public class VariablesSettingsAsset : ScriptableObject
+    public class VariablesSettingsAsset : SettingsAsset
     {
         [SerializeField] public List<Variable> variables = new List<Variable>();
     }
