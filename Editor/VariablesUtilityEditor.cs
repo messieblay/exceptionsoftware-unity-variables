@@ -82,10 +82,7 @@ namespace ExceptionSoftware.Variables
             }
             return result;
 
-            string ProcessVariable(string variable)
-            {
-                return ExCode.QuitAccentsAndN(variable.Trim()).Replace(" ", "_").ToUpper();
-            }
+            string ProcessVariable(string variable) => variable.Trim().QuitAccentsAndN().Replace(" ", "_").ToUpper();
         }
 
         public static void CreateNewVariables(string variables)
